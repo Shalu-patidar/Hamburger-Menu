@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.NavHeader {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 1px #dcdcdc;
+}
+.NavContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  max-width: 1110px;
+}
+@media screen and (min-width: 768px) {
+  .NavContent {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    max-width: 1110px;
+  }
+}
+.WebsiteLogo {
+  width: 48px;
+  height: 48px;
+}
+@media screen and (min-width: 768px) {
+  .WebsiteLogo {
+    width: 48px;
+    height: 48px;
+  }
+}
+.HamburgerIconButton {
+  background-color: transparent;
+  width: 42px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.ModalContainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 458px;
+}
+@media screen and (min-width: 768px) {
+  .ModalContainer {
+    max-width: 1110px;
+  }
+}
+.CloseButton {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin-top: 32px;
+  outline: none;
+  cursor: pointer;
+}
+.NavLinksList {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+.NavLinkItem {
+  list-style-type: none;
+}
+.NavLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e293b;
+  text-decoration: none;
+  margin-bottom: 32px;
+}
+.NavLinkContent {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 0px;
+  margin-left: 8px;
+}
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}

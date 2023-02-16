@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.AboutContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.AboutImageContainer {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+}
+.MobileAboutImage {
+  width: 80%;
+  max-width: 468px;
+}
+@media screen and (min-width: 768px) {
+  .MobileAboutImage {
+    display: none;
+  }
+}
+
+.DesktopAboutImage {
+  width: 100%;
+  max-width: 1110px;
+}
+@media screen and (max-width: 767px) {
+  .DesktopAboutImage {
+    display: none;
+  }
+}
